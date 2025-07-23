@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding:0;
+     font-family: "Merriweather Sans", sans-serif;
+}
+header {
+    
+    padding: 15px 30px;
+}
+.main{
+         display: flex;
+          justify-content: space-between;
+          align-items: center;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+.logo h2 {
+    margin: 0;
+}
+.navbar li a:link,
+.navbar li a:visited
+{
+    cursor: pointer;
+    color: #555;
+    text-decoration: none;
+    font-size: 1.125rem;
+}
+.navbar li a:hover,
+.navbar li a:active
+{
+    cursor: pointer;
+    color:#3090da;
+}
+
+.btn-container input[type="submit"] {
+    padding: 16px 16px;
+    background-color:#3090da;
+    color:#f4f4f4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    font-size: 0.938rem;
+}
+.btn-container input[type="submit"]:hover,
+.btn-container input[type="submit"]:active{
+    
+     cursor: pointer;
+    background-color:#6db3e9;
+}
+.hero-container{
+    width:100vw;
+   
+    }
+.hero-container{
+    
+    display: flex;
+    justify-content: space-between;
+        
+        }
+.machinimage{
+    
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+.hero2{
+  padding-left: 250px ;
+    margin-top: 70px;
+}
+#machinimage{
+    padding-right: 100px;
+    margin-top: 30px ;
+}
+.h2{
+     color: #555;
+}
+.h22{
+    color:#3090da;
+    font-size: 1.875rem;
+}
+.h2sty{
+    font-size: 1.875rem;
+
+}
+#btn input[type="submit"]
+{
+     padding: 16px 16px;
+    background-color:#3090da;
+    color:#f4f4f4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    font-size: 0.938rem;
+}
+#btn input[type="submit"]:hover,
+#btn input[type="submit"]:visited
+{
+     padding: 16px 16px;
+    background-color:#6db3e9;
+    color:#f4f4f4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+   
+    font-size: 0.938rem;
+}
